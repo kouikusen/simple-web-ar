@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <title>2020謹賀新年 - まぐまぐ！</title>
+    <title>Simple Web AR - Kickover Project</title>
 </head>
 
 <body style="margin:0px; overflow:hidden;">
@@ -15,12 +15,15 @@
     <!-- glTFに含まれたアニメーションを再生する為の読み込み -->
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
     <!-- A-Frame の VR空間に AR.js を紐づける（デバッグUIを非表示） -->
-    <div style="z-index:-10;background-color: #d4af37; color:#222; width: 100vw; height: 100vh;position: absolute;top: 0;left: 0;padding-top: 50px;">
+    <div style="z-index:-10;background-color: #333; color:#fff; width: 100vw; height: 100vh;position: absolute;top: 0;left: 0;padding-top: 50px;">
         <div class="loading">
-            <p style="color: #333; font-size: 0.7em;" class="title">ARを生成しています...</p>
+            <p style="color: #fff; font-size: 0.7em;" class="title">ARを生成しています...</p>
             <img src="assets/img/loading.gif" />
             <h1 class="title">読み込み中...</h1>
             <p class="title">ポップアップでカメラへのアクセスを「許可」を選択してください</p>
+            <p style="color: #fff; font-size: 0.6em; position: fixed; bottom: 20px; left: 0; right: 0; text-align: center; opacity: 0.3;">
+                Powered by Kickover Project
+            </p>
         </div>
         <style type="text/css">
         .loading {
@@ -32,7 +35,7 @@
         .title {
             font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
             margin-bottom: 10px;
-            color: #8b0000;
+            color: #fff;
         }
         </style>
     </div>
